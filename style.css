@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*============== (~ social_icon_hover ~) =================*/
+.social_icon_hover {
+  padding: 100px 0;
+}
+
+.wrapper {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.wrapper .button {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin: 0 5px;
+  background: white;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.4s;
+  border: 1px solid rgba(221, 221, 221, 0.459);
+  /*============== (~ nth hover  ~) =================*/
+}
+
+.wrapper .button:hover:nth-child(1) .icon {
+  background: #0f90f3;
+  color: white;
+}
+
+.wrapper .button:hover:nth-child(2) .icon {
+  background: #ff0000;
+  color: white;
+}
+
+.wrapper .button:hover:nth-child(3) .icon {
+  background: #bf398c;
+  color: white;
+}
+
+.wrapper .button:hover:nth-child(4) .icon {
+  background: #01c9fc;
+  color: white;
+}
+
+.wrapper .button:hover:nth-child(5) .icon {
+  background: #0a66c2;
+  color: white;
+}
+
+.wrapper .button:hover {
+  width: 200px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  background: white;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50px;
+  box-sizing: border-box;
+  transition: 0.4s;
+  color: black;
+  float: left;
+  box-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .button .icon i {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.wrapper .button span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 50px;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
